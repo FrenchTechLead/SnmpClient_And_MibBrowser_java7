@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Java Reverse Engineering
+Bundle-SymbolicName: org.topcased.java.reverse; singleton:=true
+Bundle-Version: 0.2.0
+Bundle-Activator: org.topcased.java.reverse.ReversePlugin
+Bundle-Vendor: Topcased
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core,
+ org.eclipse.ui.ide,
+ org.eclipse.jdt.ui,
+ org.eclipse.core.resources,
+ org.eclipse.uml2.uml
+Eclipse-LazyStart: true
